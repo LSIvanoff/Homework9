@@ -15,6 +15,7 @@ public class Main {
         return arr;
     }
 
+
     public static void task1() {
         System.out.println("Task 1");
         int[] arr = generateRandomArray();
@@ -25,6 +26,7 @@ public class Main {
         }
         System.out.println("Сумма трат за месяц составила " + sum + " рублей \n");
     }
+
 
     public static void task2() {
         System.out.println("Task 2");
@@ -45,6 +47,7 @@ public class Main {
         System.out.println("Минимальная сумма трат за неделю составила " + min + " рублей. Максимальная сумма трат за неделю составила " + max + " рублей \n");
     }
 
+
     public static void task3() {
         System.out.println("Task 3");
         int[] arr3 = generateRandomArray();
@@ -55,6 +58,7 @@ public class Main {
         }
         System.out.println("Средняя сумма трат за месяц составила " + sum / 2 + " рублей \n");
     }
+
 
     public static void task4() {
         System.out.println("Task 4");
