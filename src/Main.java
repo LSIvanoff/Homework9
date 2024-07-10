@@ -56,7 +56,7 @@ public class Main {
             System.out.println(arr3[i]);
             sum += arr3[i];
         }
-        System.out.println("Средняя сумма трат за месяц составила " + sum / 2 + " рублей \n");
+        System.out.println("Средняя сумма трат за месяц составила " + sum / arr3.length + " рублей \n");
     }
 
 
